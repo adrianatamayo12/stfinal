@@ -44,3 +44,7 @@ abline(v = meany, col = "black")
 linear_relationship <- lm(creature ~ fightscenes, data = stfinal)
 summary(linear_relationship)
 abline(linear_relationship, col = "red")
+
+#Residual Plot
+plot(stfinal$presenceofblood, residuals(linear_relationship))
+plot(stfinal$crying, residuals(linear_relationship))
