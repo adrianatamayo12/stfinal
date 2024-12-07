@@ -1,0 +1,18 @@
+varible name,concept,variable description,values/codes,notes including data/source
+crying ,emotional tone,is someone crying in an epsiode?,1=yes 0=no,Dummy Variable 
+presenceofblood  ,visual effects,is there blood in the episode?,1=yes 0=no,Dummy Variable
+fightscenes  ,visual effects,is there a physical altercation in an episode?,1=yes 0=no,Dummy Variable
+kisses,romance,how many kisses are there in a scene?,numeric,Discrete Variable 
+11powers,visual effects,number of times 11 uses her powers in a scene?,numeric,Discrete Variable
+deaths,visual effects,number of deaths in a scene?,numeric,Discrete Variable
+anger,emotional tone,is there yelling in a scene?,1=yes 0=no,Dummy Variable
+happiness,emotional tone,is there smiling in a scene?,1=yes 0=no,Dummy Variable
+music,audio effects,is there music playing in a scene?,1=yes 0=no,Dummy Variable
+creature,visual effects,how many times is there a creature on the screen in a scene?,numeric,Discrete Variable
+"""Will""",audio effects,"how many times is the name ""Will"" said in a scene?",numeric,Discrete Variable
+flashbacks,plot,how many times is there a flashback in a scene?,numeric,Discrete Variable
+humor,emotional tone,how many times is there a comedic aspect in the scene?,numeric,Discrete Variable
+D&D,plot,how many times is Dungeons & Dragons mentioned in a scene?,numeric,Discrete Variable
+content,plot,is the scene moving the plot along?,1=yes 0=no,Dummy Variable
+goodrating,plot,does the episode have a rating of 9 or more on IMDb?,1=yes 0=no,Dummy Variable
+badrating,plot,does the episode have a rating of 8 or less on IMDb?,1=yes 0=no,Dummy Variable
